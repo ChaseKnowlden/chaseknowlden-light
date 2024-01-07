@@ -1,0 +1,32 @@
+{
+  "name": "chaseknowlden-light",
+  "displayName": "chaseknowlden-light",
+  "description": "Light theme made by (@chaseknowlden)",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "publisher" : "chaseknowlden06",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/ChaseKnowlden/chaseknowlden-light"
+  },
+  "keywords": [
+    "light theme",
+    "gray theme",
+    "chaseknowlden",
+    "light and gray theme"
+  ],
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "chaseknowlden-light",
+        "uiTheme": "vs",
+        "path": "./themes/chaseknowlden-light-color-theme.json"
+      }
+    ]
+  }
+}
